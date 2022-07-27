@@ -1,0 +1,268 @@
+@font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/OpenSans-Bold.eot');
+    src: url('fonts/OpenSans-Bold.eot?#iefix') format('embedded-opentype'), url('fonts/OpenSans-Bold.woff2') format('woff2'), url('fonts/OpenSans-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/OpenSans-Regular.eot');
+    src: url('fonts/OpenSans-Regular.eot?#iefix') format('embedded-opentype'), url('fonts/OpenSans-Regular.woff2') format('woff2'), url('fonts/OpenSans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'F37 Judge';
+    src: local('F37 Judge Bold'), local('F37-Judge-Bold'), url('../fonts/F37Judge-Bold.woff2') format('woff2'), url('../fonts/F37Judge-Bold.woff') format('woff'), url('../fonts/F37Judge-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("../fonts/Inter-Regular.woff2") format("woff2"), url("../fonts/Inter-Regular.woff") format("woff");
+}
+
+@font-face {
+    font-family: 'VT323';
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/VT323-Regular.ttf") format('truetype');
+}
+
+body {
+    margin: 0px;
+}
+
+.wrapper {
+    padding-top: 30px;
+    background: rgb(77, 45, 144);
+    background-size: cover;
+    background: linear-gradient(0deg, rgba(77, 45, 144, 1) 0%, rgba(0, 0, 0, 1) 70%);
+}
+
+.container {
+    width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #959595;
+    font-size: 14px;
+    font-family: 'Inter';
+}
+
+a:hover {
+    color: #f7f7f7 !important;
+}
+
+.banner-text {
+    font-family: 'F37 Judge';
+}
+
+.card-subtitle {
+    font-size: x-large;
+    font-family: 'VT323', monospace;
+}
+
+#banner {
+    height: 460px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.customfont {
+    font-family: 'VT323', monospace;
+    font-size: 20px;
+}
+
+.rounded {
+    border-radius: 8px !important;
+    background-color: #1a1a1a;
+    color: #f7f7f7;
+    font-size: medium;
+    font-family: 'Inter';
+}
+
+.custom-bg-icon {
+    font-size: 50px;
+    color: linear-gradient(0deg, rgba(77, 45, 144, 1) 0%, rgba(0, 0, 0, 1) 70%);
+}
+
+.card {
+    border-radius: 1em;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    text-shadow: 0 0 1em rgba(0, 0, 0, 0.5);
+    background: rgba(255, 255, 255, 0.1);
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+    transform: perspective(500px);
+    transform-style: preserve-3d;
+    width: 400px;
+    height: 320px;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* .c1 {
+    background: rgb(151, 74, 92);
+    background: radial-gradient(circle, rgba(151, 74, 92, 1) 0%, rgba(0, 0, 0, 1) 100%);
+}
+
+.c2 {
+    background: rgb(0, 0, 0);
+    background: linear-gradient(40deg, rgba(0, 0, 0, 1) 0%, rgba(101, 67, 114, 1) 100%);
+}
+
+.c3 {
+    background: rgb(0, 0, 0);
+    background: radial-gradient(circle, rgba(0, 0, 0, 1) 0%, rgba(74, 155, 127, 1) 70%);
+}
+
+.c4 {
+    background: rgb(0, 0, 0);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(141, 71, 52, 1) 100%);
+} */
+
+
+/* team */
+
+#team {
+    height: 560px;
+}
+
+.border {
+    height: 369px;
+    width: 290px;
+    background: transparent;
+    border-radius: 10px;
+    transition: border 1s;
+    position: relative;
+}
+
+.border:hover {
+    border: 1px solid #fff;
+}
+
+.teamcard {
+    height: 379px;
+    width: 300px;
+    background: #808080;
+    border-radius: 10px;
+    transition: background 0.8s;
+    overflow: hidden;
+    background: #000;
+    box-shadow: 0 70px 63px -60px #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.card0 {
+    background: url("https://i.pinimg.com/736x/8f/a0/51/8fa051251f5ac2d0b756027089fbffde--terry-o-neill-al-pacino.jpg") center center no-repeat;
+    background-size: 300px;
+}
+
+.card0:hover {
+    background: url("https://i.pinimg.com/736x/8f/a0/51/8fa051251f5ac2d0b756027089fbffde--terry-o-neill-al-pacino.jpg") left center no-repeat;
+    background-size: 600px;
+}
+
+.card0:hover h2 {
+    opacity: 1;
+}
+
+.card0:hover .fa {
+    opacity: 1;
+}
+
+.card1 {
+    background: url("https://i.pinimg.com/originals/28/d2/e6/28d2e684e7859a0dd17fbd0cea00f8a9.jpg") center center no-repeat;
+    background-size: 300px;
+}
+
+.card1:hover {
+    background: url("https://i.pinimg.com/originals/28/d2/e6/28d2e684e7859a0dd17fbd0cea00f8a9.jpg") left center no-repeat;
+    background-size: 600px;
+}
+
+.card1:hover h2 {
+    opacity: 1;
+}
+
+.card1:hover .fa {
+    opacity: 1;
+}
+
+.card2 {
+    background: url("https://i.pinimg.com/originals/ee/85/08/ee850842e68cfcf6e3943c048f45c6d1.jpg") center center no-repeat;
+    background-size: 300px;
+}
+
+.card2:hover {
+    background: url("https://i.pinimg.com/originals/ee/85/08/ee850842e68cfcf6e3943c048f45c6d1.jpg") left center no-repeat;
+    background-size: 600px;
+}
+
+.card2:hover h2 {
+    opacity: 1;
+}
+
+.card2:hover .fa {
+    opacity: 1;
+}
+
+h2 {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #fff;
+    margin: 20px;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.fa {
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.icons {
+    position: absolute;
+    fill: #fff;
+    color: #fff;
+    height: 130px;
+    top: 226px;
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
