@@ -42,6 +42,10 @@ body {
     margin: 0px;
 }
 
+.spacer {
+    height: 100px;
+}
+
 .wrapper {
     padding-top: 30px;
     background: rgb(77, 45, 144);
