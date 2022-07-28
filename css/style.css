@@ -155,10 +155,6 @@ a:hover {
 
 /* team */
 
-#team {
-    height: 560px;
-}
-
 .border {
     height: 369px;
     width: 290px;
@@ -187,58 +183,97 @@ a:hover {
     position: relative;
 }
 
-.card0 {
-    background: url("https://i.pinimg.com/736x/8f/a0/51/8fa051251f5ac2d0b756027089fbffde--terry-o-neill-al-pacino.jpg") center center no-repeat;
-    background-size: 300px;
+.content-between {
+    display: flex !important;
+    justify-content: space-around !important;
 }
 
-.card0:hover {
-    background: url("https://i.pinimg.com/736x/8f/a0/51/8fa051251f5ac2d0b756027089fbffde--terry-o-neill-al-pacino.jpg") left center no-repeat;
-    background-size: 600px;
-}
-
-.card0:hover h2 {
+.teamcard:hover h2 {
     opacity: 1;
 }
 
-.card0:hover .fa {
+.teamcard:hover .fa {
     opacity: 1;
 }
 
 .card1 {
-    background: url("https://i.pinimg.com/originals/28/d2/e6/28d2e684e7859a0dd17fbd0cea00f8a9.jpg") center center no-repeat;
+    background: url("../asset/Ahmad-Manzoor.png") center center no-repeat;
     background-size: 300px;
 }
 
 .card1:hover {
-    background: url("https://i.pinimg.com/originals/28/d2/e6/28d2e684e7859a0dd17fbd0cea00f8a9.jpg") left center no-repeat;
+    background: url("../asset/Ahmad-Manzoor.png") left center no-repeat;
     background-size: 600px;
 }
 
-.card1:hover h2 {
-    opacity: 1;
-}
-
-.card1:hover .fa {
-    opacity: 1;
-}
-
 .card2 {
-    background: url("https://i.pinimg.com/originals/ee/85/08/ee850842e68cfcf6e3943c048f45c6d1.jpg") center center no-repeat;
+    background: url("../asset/cto.jpg") center center no-repeat;
     background-size: 300px;
 }
 
 .card2:hover {
+    background: url("../asset/cto.jpg") left center no-repeat;
+    background-size: 600px;
+}
+
+.card3 {
+    background: url("../asset/babu.jpeg") center center no-repeat;
+    background-size: 300px;
+}
+
+.card3:hover {
+    background: url("../asset/babu.jpeg") left center no-repeat;
+    background-size: 600px;
+}
+
+.card4 {
+    background: url("../asset/Asad_MD.jpg") center center no-repeat;
+    background-size: 300px;
+}
+
+.card4:hover {
+    background: url("../asset/Asad_MD.jpg") left center no-repeat;
+    background-size: 600px;
+}
+
+.card5 {
+    background: url("../asset/Asad_MD.jpg") center center no-repeat;
+    background-size: 300px;
+}
+
+.card5:hover {
+    background: url("../asset/Asad_MD.jpg") left center no-repeat;
+    background-size: 600px;
+}
+
+.card6 {
+    background: url("../asset/duam.jpeg") center center no-repeat;
+    background-size: 300px;
+}
+
+.card6:hover {
+    background: url("../asset/duam.jpeg") left center no-repeat;
+    background-size: 600px;
+}
+
+.card7 {
+    background: url("https://i.pinimg.com/originals/ee/85/08/ee850842e68cfcf6e3943c048f45c6d1.jpg") center center no-repeat;
+    background-size: 300px;
+}
+
+.card7:hover {
     background: url("https://i.pinimg.com/originals/ee/85/08/ee850842e68cfcf6e3943c048f45c6d1.jpg") left center no-repeat;
     background-size: 600px;
 }
 
-.card2:hover h2 {
-    opacity: 1;
+.card8 {
+    background: url("../asset/hamidmustafa.jpeg") center center no-repeat;
+    background-size: 300px;
 }
 
-.card2:hover .fa {
-    opacity: 1;
+.card8:hover {
+    background: url("../asset/hamidmustafa.jpeg") left center no-repeat;
+    background-size: 600px;
 }
 
 h2 {
