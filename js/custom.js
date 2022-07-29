@@ -5,7 +5,10 @@ $(document).ready(function() {
         slidesToScroll: 1,
         autoplay: true,
         arrows: false,
-        autoplaySpeed: 2000,
+        autoplaySpeed: 0,
+        speed: 6000,
+        pauseOnHover: false,
+        cssEase: 'linear',
         responsive: [{
                 breakpoint: 1024,
                 settings: {
