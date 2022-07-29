@@ -241,12 +241,12 @@ a:hover {
 }
 
 .card5 {
-    background: url("../asset/Asad_MD.jpg") center center no-repeat;
+    background: url("../asset/IMG_20220729_110721.jpg") center center no-repeat;
     background-size: 300px;
 }
 
 .card5:hover {
-    background: url("../asset/Asad_MD.jpg") left center no-repeat;
+    background: url("../asset/IMG_20220729_110721.jpg") left center no-repeat;
     background-size: 600px;
 }
 
