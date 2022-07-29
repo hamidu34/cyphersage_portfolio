@@ -136,27 +136,6 @@ a:hover {
 }
 
 
-/* .c1 {
-    background: rgb(151, 74, 92);
-    background: radial-gradient(circle, rgba(151, 74, 92, 1) 0%, rgba(0, 0, 0, 1) 100%);
-}
-
-.c2 {
-    background: rgb(0, 0, 0);
-    background: linear-gradient(40deg, rgba(0, 0, 0, 1) 0%, rgba(101, 67, 114, 1) 100%);
-}
-
-.c3 {
-    background: rgb(0, 0, 0);
-    background: radial-gradient(circle, rgba(0, 0, 0, 1) 0%, rgba(74, 155, 127, 1) 70%);
-}
-
-.c4 {
-    background: rgb(0, 0, 0);
-    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(141, 71, 52, 1) 100%);
-} */
-
-
 /* team */
 
 .border {
@@ -166,6 +145,7 @@ a:hover {
     border-radius: 10px;
     transition: border 1s;
     position: relative;
+    margin: 4px;
 }
 
 .border:hover {
@@ -173,8 +153,8 @@ a:hover {
 }
 
 .teamcard {
-    height: 379px;
-    width: 300px;
+    height: 379px !important;
+    width: 300px !important;
     background: #808080;
     border-radius: 10px;
     transition: background 0.8s;
@@ -304,4 +284,12 @@ h2 {
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+}
+
+.slick-slide {
+    margin: 10px !important;
+}
+
+.slick-list {
+    height: 460px !important;
 }
