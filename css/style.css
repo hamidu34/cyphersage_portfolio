@@ -46,19 +46,20 @@ body {
     height: 100px;
 }
 
+
+/* wrapper */
+
 .wrapper {
-    padding-top: 30px;
     background: rgb(77, 45, 144);
     background-size: cover;
     background: linear-gradient(0deg, rgba(77, 45, 144, 1) 0%, rgba(0, 0, 0, 1) 70%);
 }
 
-.container {
-    width: 1300px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+
+/* header */
+
+#header {
+    padding-top: 30px;
 }
 
 ul {
@@ -81,6 +82,9 @@ a:hover {
     color: #f7f7f7 !important;
 }
 
+
+/* Banner */
+
 .banner-text {
     font-family: 'F37 Judge';
 }
@@ -91,7 +95,7 @@ a:hover {
 }
 
 #banner {
-    height: 460px;
+    margin-top: 180px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -101,6 +105,9 @@ a:hover {
     font-family: 'VT323', monospace;
     font-size: 20px;
 }
+
+
+/* services */
 
 .rounded {
     border-radius: 8px !important;
@@ -292,4 +299,12 @@ h2 {
 
 .slick-list {
     height: 460px !important;
+}
+
+
+/* footer */
+
+.imgFluid {
+    width: -webkit-fill-available;
+    height: auto;
 }
