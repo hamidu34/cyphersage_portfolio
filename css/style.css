@@ -228,12 +228,12 @@ a:hover {
 }
 
 .card5 {
-    background: url("../asset/Zohaib.png") center center no-repeat;
+    background: url("../asset/IMG_20220729_110721.jpg") center center no-repeat;
     background-size: 300px;
 }
 
 .card5:hover {
-    background: url("../asset/Zohaib.png") left center no-repeat;
+    background: url("../asset/IMG_20220729_110721.jpg") left center no-repeat;
     background-size: 600px;
 }
 
