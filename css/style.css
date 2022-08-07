@@ -248,12 +248,12 @@ a:hover {
 }
 
 .card7 {
-    background: url("https://i.pinimg.com/originals/ee/85/08/ee850842e68cfcf6e3943c048f45c6d1.jpg") center center no-repeat;
+    background: url("../asset/Hira\ Moueen.jpg") center center no-repeat;
     background-size: 300px;
 }
 
 .card7:hover {
-    background: url("https://i.pinimg.com/originals/ee/85/08/ee850842e68cfcf6e3943c048f45c6d1.jpg") left center no-repeat;
+    background: url("../asset/Hira\ Moueen.jpg") left center no-repeat;
     background-size: 600px;
 }
 
